@@ -12,6 +12,7 @@
    ========================================================================== */
 
 html {
+  background-color: whitesmoke;
   color: #222;
   font-size: 1em;
   line-height: 1.4;
@@ -122,6 +123,15 @@ p {
   font-size: var(--utopia-0);
 }
 
+strong {
+  font-size: var(--utopia-0);
+}
+
+details {
+  padding: 15px;
+  background-color: rgb(167, 215, 167);
+}
+
 .button {
   --button-bg: #342a21;
   --button-color: #ffffff;
@@ -189,6 +199,25 @@ p {
   --button-hover-bg: #f1d979;
   --button-hover-color: #342a21;
   --button-font-size: var(var(--utopia-2))
+}
+
+.button[data-button-variant="positive"] {
+  --button-bg: #2d936c;
+  --button-border-color: #107350;
+  --button-hover-bg: #359d75;
+}
+
+.button[data-button-variant="negative"] {
+  --button-bg: #b33c48;
+  --button-border-color: #a62f3d;
+  --button-hover-bg: #c24a56;
+}
+
+/* Ghost buttons */
+.button[data-ghost-button] {
+  --button-bg: transparent;
+  --button-border-color: currentColor;
+  --button-color: currentColor;
 }
 
 /* List styles */
