@@ -98,7 +98,7 @@ body {
   flex-direction: column;
 }
 
-code {
+pre {
   white-space: pre-wrap;
 }
 
