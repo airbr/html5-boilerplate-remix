@@ -89,6 +89,7 @@ textarea {
 
 main {
   max-width: 75ch;
+  width: 100%;
 }   
 
 body {
@@ -97,13 +98,6 @@ body {
   justify-content: left;
   flex-direction: column;
 }
-
-@property --num {
-  syntax: '<integer>';
-  initial-value: 0;
-  inherits: false;
-}
-
 
 /* @link https://utopia.fyi/type/calculator?c=360,18,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
