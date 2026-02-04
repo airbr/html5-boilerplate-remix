@@ -126,11 +126,15 @@ svg {
 }
 
 p {
+  font-size: var(--utopia-1);
+}
+
+pre {
   font-size: var(--utopia-0);
 }
 
 strong {
-  font-size: var(--utopia-0);
+  font-size: var(--utopia-3);
 }
 
 details {
