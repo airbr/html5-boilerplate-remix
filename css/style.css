@@ -129,7 +129,7 @@ p {
   font-size: var(--utopia-1);
 }
 
-pre {
+pre, li {
   font-size: var(--utopia-0);
 }
 
